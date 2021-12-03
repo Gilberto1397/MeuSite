@@ -33,8 +33,9 @@ hr{
     margin: auto;
 }
 
-#projetos li a{
+#projetos li {
         border-bottom: 1px solid rgb(103, 112, 237);
+        cursor: pointer;
 }
 
 #card1{
