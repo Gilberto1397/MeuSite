@@ -6,31 +6,28 @@
     font-weight: 600;
 }
 
-.fina{
-    font-weight: 00;
-}
 
 header{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 body{
     background: url("../img/01.jpg");
 }
 
-main{
-    height: 100vh;
-}
 
 hr{
     color: white;
 }
 
+footer{
+    font-size: 20px;
+}
+
 #menu{
     border-radius: 15px;
     opacity: 80%;
-    width: 50%;
-    margin: auto;
+    box-shadow: 1px 2px 5px rgb(1, 1, 15);
 }
 
 #drop{
@@ -46,9 +43,6 @@ hr{
         cursor: pointer;
 }
 
-#card1{
-    margin-top: 20px;
-}
 
 #foto{
     width: 250px;
@@ -73,3 +67,44 @@ hr{
     
 }
 
+
+@media screen and (min-width:770px)
+{
+    #card2{
+        position: relative;
+        top: -100px;
+        margin: 20px;
+    }
+
+    section{
+        position: relative;
+        top: 50px
+    }
+    
+footer{
+    position: relative;
+    top: 270px;
+}
+
+#menu{
+    width: 60%;
+}
+
+}
+
+@media screen and (min-width:1000px)
+{
+
+    #card1{
+        width: 70%;
+        position: relative;
+        top: 100px;
+    }
+
+    #card2{
+        position: relative;
+        top: -150px;
+        margin-left: 50px;
+    }
+
+}
