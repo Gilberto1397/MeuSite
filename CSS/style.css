@@ -1,0 +1,47 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.grossa{
+    font-weight: 600;
+}
+
+.fina{
+    font-weight: 00;
+}
+
+header{
+    margin-top: 50px;
+}
+
+body{
+    background: url("../img/01.jpg");
+}
+
+main{
+    height: 100vh;
+}
+
+hr{
+    color: white;
+}
+
+#menu{
+    border-radius: 15px;
+    opacity: 80%;
+    width: 50%;
+    margin: auto;
+}
+
+#projetos li a{
+        border-bottom: 1px solid rgb(103, 112, 237);
+}
+
+#card1{
+    margin-top: 20px;
+}
+
+#foto{
+    width: 250px;
+    border-radius: 50%;
+}
