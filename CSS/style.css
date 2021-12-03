@@ -33,6 +33,14 @@ hr{
     margin: auto;
 }
 
+#drop{
+    transition: 0.2s ease-in-out;
+}
+
+#drop:hover{
+    font-size: 20px;
+}
+
 #projetos li {
         border-bottom: 1px solid rgb(103, 112, 237);
         cursor: pointer;
@@ -46,3 +54,22 @@ hr{
     width: 250px;
     border-radius: 50%;
 }
+
+#download a{
+    transition: 0.2s ease-in-out;
+    color: white;
+}
+
+#download:hover{
+    background-color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    
+    
+}
+
+#download a:hover{
+    color: rgba(6, 2, 19, 0.637);
+    
+}
+

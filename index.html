@@ -24,11 +24,11 @@
             <nav id="menu" class="navbar navbar-light bg-black">
                 <div class="container-fluid ">
                     <ul class="nav w-100 p-1 d-flex justify-content-evenly">
-                        <li class="nav-item">
-                            <a class="nav-link text-white grossa" href="/portfolio/docs/CV Gilberto Jr..pdf" download="">Download CV</a>
+                        <li id="download" class="nav-item">
+                            <a class="nav-link grossa" href="/docs/CV Gilberto Az..pdf" download="">Download CV</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white grossa" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Projetos construídos</a>
+                            <a id="drop" class="nav-link dropdown-toggle text-white grossa" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Projetos construídos</a>
                             <ul id="projetos" class="dropdown-menu">
                                 <li><a class="dropdown-item grossa" href="projetos/teste.html">Projeto 1</a></li>
                                 <li><a class="dropdown-item grossa" href="projetos/teste.html">Projeto 1</a></li>
@@ -62,7 +62,11 @@
         <div class="container">
             <footer class="py-3 my-4">
                 <hr>
-                <p class="text-center text-white ">&copy; Criado por Gilberto Azevedo Jr - 2021</p>
+                <div class="d-flex justify-content-center">
+                    <p class="text-center text-white me-3">&copy; Criado por Gilberto Azevedo Jr - 2021</p>
+                    <a href="https://github.com/Gilberto1397"><i class="fab fa-github me-3 mt-1 text-dark"></i></a>
+                    <a href="https://www.linkedin.com/in/gilberto-azevedo-junior-3a78581b9/"><i class="fab fa-linkedin text-dark"></i></a>
+                </div>
             </footer>
         </div>
     </main>
